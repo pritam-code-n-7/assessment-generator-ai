@@ -27,7 +27,7 @@ This project consists of a frontend and backend, both of which can be run locall
 
 2. **Start the Development Server**:
    ```bash
-   pnpm run
+   pnpm run dev
 
 3. **Please add .env file and put your own environment variables to see actual result**:
  
