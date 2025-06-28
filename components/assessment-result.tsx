@@ -47,16 +47,16 @@ export function AssessmentResult({ assessment, onReset, notice, isAiGenerated }:
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
-        <div className="flex items-center space-x-2">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-2">
           <h2 className="text-2xl font-bold text-gray-800">Generated Assessment</h2>
           {isAiGenerated && (
-            <Badge variant="outline" className="bg-purple-50 text-purple-700 border-purple-200">
+            <Badge variant="outline" className="bg-purple-50 text-purple-700 border-purple-200 w-40 h-10">
               <Sparkles className="h-3 w-3 mr-1 text-purple-500" />
               AI Generated
             </Badge>
           )}
         </div>
-        <div className="flex space-x-2">
+        <div className="grid lg:grid-cols-4 grid-cols-1 gap-2">
           <CSVExport assessment={assessment} />
           <Button variant="outline" size="sm" onClick={handleDownload}>
             <Download className="h-4 w-4 mr-2" />
