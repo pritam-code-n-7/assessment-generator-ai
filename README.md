@@ -32,7 +32,7 @@ A web application for generating assessments for kids. Built with next.js and @a
 ## Getting Started
 
 1. Clone the repository
-2. copy `.env` and fill your credentials
+2. rename `.env.example` to `.env` and fill your credentials
 3. Install dependencies with `pnpm install`
 4. Run development server with `pnpm run dev`
 5. Build for production with `pnpm run build`
