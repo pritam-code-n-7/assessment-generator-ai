@@ -16,8 +16,9 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files
-.env*
+# env files - protect secrets
+.env
+!.env.example
 
 # vercel
 .vercel
