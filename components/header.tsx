@@ -8,7 +8,7 @@ export function Header() {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
             <BookOpen className="h-6 w-6 text-purple-600" />
-            <span className="text-xl font-bold text-gray-800">EduAssess</span>
+            <span className="text-xl font-bold text-gray-800">Demo</span>
           </Link>
           <nav className="hidden md:flex items-center space-x-6">
             <Link href="/" className="text-gray-600 hover:text-purple-600 transition-colors">
