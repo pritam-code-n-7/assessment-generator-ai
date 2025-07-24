@@ -50,8 +50,8 @@ export function AssessmentResult({ assessment, onReset, notice, isAiGenerated }:
         <div className="grid grid-cols-1 gap-2">
           <h2 className="text-2xl font-bold text-gray-800">Generated Assessment</h2>
           {isAiGenerated && (
-            <Badge variant="outline" className="bg-purple-50 text-purple-700 border-purple-200 w-40 h-10">
-              <Sparkles className="h-3 w-3 mr-1 text-purple-500" />
+            <Badge variant="outline" className="bg-cyan-50 text-cyan-700 border-cyan-200 w-40 h-10">
+              <Sparkles className="h-3 w-3 mr-1 text-cyan-500" />
               AI Generated
             </Badge>
           )}

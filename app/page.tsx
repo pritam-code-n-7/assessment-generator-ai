@@ -1,9 +1,10 @@
 import { AssessmentForm } from "@/components/assessment-form"
+import Footer from "@/components/footer"
 import { Header } from "@/components/header"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-blue-50 to-purple-50">
+    <main className="min-h-screen bg-gradient-to-b from-blue-50 to-cyan-50">
       <Header />
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-3xl mx-auto">
@@ -16,6 +17,7 @@ export default function Home() {
           <AssessmentForm />
         </div>
       </div>
+      <Footer />
     </main>
   )
 }
